@@ -86,8 +86,11 @@ if __name__ == "__main__":
 
 
     ```
-   
- 
+  #run script
+  ./dynamic_inventory 
+
+  #listing only db
+ ansible -i aws_dynamic.py db --list-hosts
 
 
 
