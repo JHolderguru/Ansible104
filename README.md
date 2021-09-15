@@ -42,6 +42,7 @@ shown ansadmin (folder to give copy permissions)
 
 6. Implenting our Dynamic inventory
     vi dynamic_inventory
+    
 ```
  #!/bin/python
 import sys
@@ -88,6 +89,7 @@ if __name__ == "__main__":
 
 
     ```
+    
   #run script
   ./dynamic_inventory 
 
