@@ -58,10 +58,10 @@ except Exception as e:
 
 7. Assign the right IAM role to be able to run the python script.
    Python script to get our instances using tags
-    ```
+    ```python
    
     #!/bin/python2
-    ```
+    
 import sys
 try:
    import boto3
@@ -90,6 +90,7 @@ def main():
 if __name__ == "__main__":
    main()
     
+    ```
     
   #run script
   ./dynamic_inventory 
