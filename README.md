@@ -59,7 +59,9 @@ except Exception as e:
 7. Assign the right IAM role to be able to run the python script.
    Python script to get our instances using tags
     ```
+   
     #!/bin/python2
+    ```
 import sys
 try:
    import boto3
@@ -75,6 +77,7 @@ def get_hosts(ec2_ob, fv):
        #print(each_in.private_ip_address)
         hosts.append(each_in.private_ip_address)
    return hosts
+   
 def main():
    ec2_ob=boto3.resource("ec2","us-east-1")
    db_group=get_hosts(ec2_ob, 'db')
@@ -86,8 +89,6 @@ def main():
 
 if __name__ == "__main__":
    main()
-
-
     ```
     
   #run script
