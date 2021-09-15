@@ -25,10 +25,12 @@ shown ansadmin (folder to give copy permissions)
 
 4. Assign Ansible AWS role to instance - ec2full
   ```
-  #list all ec2 inventry
+  #list all ec2 inventory
   ./ec2.py 
+  
   #Working with a region
   ansible -i ec2.py us-east-1a -m ping  
+  
   #Working with ec2
   ansible -i ec2.py ec2 -m ping
 
