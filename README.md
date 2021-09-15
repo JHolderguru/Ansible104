@@ -98,12 +98,14 @@ if __name__ == "__main__":
 
   #listing only db
  ansible -i aws_dynamic.py db --list-hosts
+ 
+ ```
 
 8. WHat if host has no python? 
 
+```
 Use the raw module
 
-```
 #instead of 
 ansible all -m shell -a"uptime"
 
