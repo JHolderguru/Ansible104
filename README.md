@@ -40,7 +40,7 @@ shown ansadmin (folder to give copy permissions)
  create an image from one of your nodes....then the configuration has andamin user with exchanged keys.
 
 
-6. Implenting our Dynamic inventory
+6. Creating a custom Dynamic inventory using tags
     vi dynamic_inventory
     
 ```
